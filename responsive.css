@@ -1,0 +1,170 @@
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .hero-section {
+        background-image: none;
+        background-color: var(--secondary-color);
+        min-height: auto;
+        padding: 30px;
+    }
+
+    .hero-section-content {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero-section .hero-section-short-title {
+        font-size: 26px;
+    }
+
+    .hero-section .hero-section-title {
+        font-size: 44px;
+    }
+
+    .info-section {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    .info-box {
+        margin-bottom: 20px !important;
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid #eee;
+        min-height: 220px;
+    }
+
+    .about-section {
+        padding-top: 20px;
+    }
+
+    .about-section-title {
+        text-align: center;
+    }
+
+    .about-section-title h2 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .about-info-card {
+
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #eee;
+        border-radius: 8px;
+    }
+
+    .about-img {
+        padding-top: 20px;
+    }
+
+    .about-back-img {
+        height: 350px;
+    }
+
+    .about-back-img img {
+        height: 100%;
+    }
+
+    .about-wrap {
+        text-align: center;
+    }
+
+    .donate-section .heading,
+    .title {
+        font-size: 34px;
+        line-height: 38px;
+        margin: 10px 0;
+    }
+
+    .info-box-content h3,
+    .about-info-card .content-wrapper h5 {
+        font-size: 20px;
+    }
+
+    .donate-section p,
+    .about-info-card .content-wrapper p,
+    .info-box-content p {
+        font-size: 14px;
+    }
+
+    .donateion-form {
+        display: flex;
+        flex-direction: column;
+
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .footer-box-links {
+        width: 100%;
+    }
+
+    .donateBtn {
+        padding: 10px 25px !important;
+        font-size: 14px;
+    }
+
+    .about-hero-section {
+        height: 300px;
+    }
+
+    .about-hero-section .g-shape {
+        display: none;
+    }
+
+    .about-hero-title h2 {
+        font-size: 34px;
+    }
+
+    .whatWeDo-section .about-section-title {
+        width: 90%;
+    }
+
+    .contact-section,
+    .contact-form-section {
+        padding: 20px 0;
+    }
+
+
+    .contact-box {
+        margin-bottom: 20px !important;
+        width: 96%;
+        margin: 0 auto;
+        border: 1px solid #eee;
+        min-height: 220px;
+    }
+
+    .contact-form-box {
+        margin-bottom: 20px !important;
+        border: 1px solid #eee;
+
+    }
+
+    .contact-form-section iframe {
+        width: 100%;
+    }
+
+    .contact-box-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+    }
+
+    .contact-box-icon svg {
+        width: 30px;
+    }
+
+    .contact-box-content h3 {
+        font-size: 22px;
+
+        margin-bottom: 10px;
+    }
+
+    .contact-box-content span {
+        font-size: 16px;
+    }
+}
